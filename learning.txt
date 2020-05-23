@@ -2,7 +2,7 @@ git 工具第一堂课：
 git add <file> ,将文件添加到缓存区
 git commit -option 提交缓存区的 文件
 git 工具第二堂课
-git diff 查看改变信息
+git diff 查看改变信息（默认比较工作区与缓存区，加选项cache比较缓存区与仓库）
 git status 检查仓库状态
 git 第三堂课
 git log检查版本记录  git log --pretty=oneline，单行展示log信息
@@ -11,4 +11,4 @@ git reflog 查看最近git仓库改变命令，包含commit id
 
 git第四堂课：
 	.git目录（版本库）含有stage（缓存区）、master（首次创建的分支）、HEAD指针
-	
+	改动
