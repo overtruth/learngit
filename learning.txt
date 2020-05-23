@@ -12,3 +12,4 @@ git reflog 查看最近git仓库改变命令，包含commit id
 git第四堂课：
 	.git目录（版本库）含有stage（缓存区）、master（首次创建的分支）、HEAD指针
 	改动
+	git status检查的是什么呢？（可以是未添加到缓存区的工作区改动，也可以是缓存未提交的改动）
