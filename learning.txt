@@ -4,3 +4,11 @@ git commit -option 提交缓存区的 文件
 git 工具第二堂课
 git diff 查看改变信息
 git status 检查仓库状态
+git 第三堂课
+git log检查版本记录  git log --pretty=oneline，单行展示log信息
+git reset --hard HEAD（^代表上个版本，~*代表回退*个版本），也可以直接跟commit id
+git reflog 查看最近git仓库改变命令，包含commit id
+
+git第四堂课：
+	.git目录（版本库）含有stage（缓存区）、master（首次创建的分支）、HEAD指针
+	
